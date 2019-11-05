@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:12.13.0
+      - image: circleci/node:12.13.0      # tells circle ci what docker image to use when building
     steps:
       - checkout
       - run: echo "A first hello"
